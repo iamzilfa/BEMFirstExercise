@@ -53,11 +53,8 @@
 
 }
 
-.navbar__text {
-    font-weight: 700;
-    font-size: 14px;
+.link__text {
     line-height: 22px;
-    letter-spacing: 0.2px;
     color: #1BA0AB;
     text-decoration: none;
 }
@@ -124,17 +121,12 @@ header {
     margin: 30px 0;
 }
 
-.header__links {
+.link-header__btn {
     display: flex;
     align-items: center;
     list-style: none;
     gap: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.2px;
     align-items: center;
-    color: #737373;
 }
 
 .btn--outlined {
@@ -276,7 +268,7 @@ footer {
     margin-bottom: 5rem;
 }
 
-.title--upper{
+.title__upper{
     text-transform: uppercase;
     padding: 13px 0;
 }
