@@ -53,7 +53,7 @@
 
 }
 
-.item__text {
+.item--text {
     line-height: 22px;
     color: #1BA0AB;
     text-decoration: none;
