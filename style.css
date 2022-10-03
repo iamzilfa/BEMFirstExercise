@@ -23,7 +23,7 @@
     padding-right: 11rem;
 }
 
-.navbar__log0 {
+.navbar__logo {
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
@@ -36,7 +36,7 @@
     gap: 5rem;
 }
 
-.navbar__links {
+.items {
     display: flex;
     align-items: center;
     list-style: none;
@@ -44,7 +44,7 @@
 }
 
 
-.link__item {
+.item {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -53,13 +53,13 @@
 
 }
 
-.link__text {
+.item__text {
     line-height: 22px;
     color: #1BA0AB;
     text-decoration: none;
 }
 
-.link__btn {
+.btn {
     padding: 15px 25px;
     gap: 15px;
     width: 137px;
@@ -129,7 +129,7 @@
     align-items: center;
 }
 
-.link__btn--outlined {
+.btn--outlined {
     border: 1px solid #1BA0AB;
     border-radius: 5px;
     color: #1BA0AB;
@@ -162,7 +162,7 @@
     background-color: #E74040;
 }
 
-.main__title {
+.title {
     font-weight: 700;
     font-size: 40px;
     line-height: 50px;
@@ -170,7 +170,7 @@
     color: #252B42;
 }
 
-.cards__text {
+.text {
     font-style: 400;
     font-weight: 400;
     font-size: 14px;
@@ -179,7 +179,7 @@
     color: #737373;
 }
 
-.link__item--highlighted {
+.item--highlighted {
     text-decoration: none;
     color: #1BA0AB;
 }
@@ -195,7 +195,7 @@
     padding-top: 10rem;
 }
 
-.cards_note {
+.note {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -203,7 +203,7 @@
     color: #1BA0AB;
 }
 
-.main__title--style{
+.title--style{
     padding: 13px 0;
 }
 
@@ -255,7 +255,7 @@
     margin-top: 100px;
 }
 
-.footer__content {
+.subscribe-content {
     background-color: #FFF5F0;
     height: 90vh;
     background-position: bottom;
@@ -267,21 +267,21 @@
 }
 
 
-.footer__text {
+.subscribe-text {
     text-align: center;
     margin-bottom: 5rem;
 }
 
 
 
-.footer__form-button {
+.subscribe__form-button {
     display: flex;
     align-items: center;
     gap: -2px;
 }
 
 
-.footer__input {
+.subscribe__input {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
@@ -294,11 +294,11 @@
     border-radius: 5px;
 }
 
-.footer__input[type="text"] {
+.subscribe__input[type="text"] {
     background-color: #F9F9F9;
     margin-right: -4px;
 }
 
-.btn__footer {
+.btn--subscribe {
     border-radius: 0px 5px 5px 0px;
 }
