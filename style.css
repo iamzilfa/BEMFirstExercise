@@ -44,7 +44,7 @@
 }
 
 
-.nav--item {
+.items-link {
     font-weight: 700;
     font-size: 14px;
     line-height: 24px;
@@ -53,7 +53,7 @@
 
 }
 
-.nav--item--highlighted {
+.items-link--highlighted {
     line-height: 22px;
     color: #1BA0AB;
     text-decoration: none;
